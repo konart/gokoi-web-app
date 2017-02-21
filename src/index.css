@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#table {
+  position: absolute;
+  height: 50%;
+  width: 90%;
+  margin: 10px;
+  background-color: antiquewhite;
+}
+
+#player1 {
+  position: absolute;
+  margin: 5px;
+  background-color: cornflowerblue;
+  width: 100%;
+  min-height: 100px;
+  top: 5px;
+}
+
+#player2 {
+  position: absolute;
+  margin: 5px;
+  background-color: cornflowerblue;
+  width: 100%;
+  min-height: 100px;
+  bottom: 5px;
+}
+
+#deck {
+  margin: 5px;
+  background-color: goldenrod;
+  height: 90px;
+  width: 56px;
+  top: 40%;
+  position: absolute;
+}
+
+.hand {
+  float: left;
+  height: 90px;
+  position: relative;
+  background-color: darkseagreen;
+  width: 48%;
+  margin: 5px;
+}
+
+.card {
+  background-size: 100% 100%;
+  /* background-image: url(image.png); */
+  /* padding-left: 10%; */
+  margin: 5px;
+  height: 90%;
+  width: 50px;
+  background-repeat: no-repeat;
+}
