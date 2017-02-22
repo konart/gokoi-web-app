@@ -4,8 +4,6 @@ class Table extends Component {
 
     componentWillMount() {
         let conn;
-        let msg = document.getElementById("msg");
-        let log = document.getElementById("log");
 
         if (window["WebSocket"]) {
             conn = new WebSocket("ws://localhost:8080/ws");

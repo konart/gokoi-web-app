@@ -13,7 +13,6 @@ class Card extends Component {
     }
 
     toggleBackground() {
-        //ReactDOM.render(<Welcome />, document.getElementById("deck"));
         if (this.state.image == "url(image.png)") {
             this.setState({background: {backgroundImage: ""}});
             this.setState({image: ""})
@@ -30,8 +29,5 @@ class Card extends Component {
         );
     }
 }
-//
-// let deck = document.getElementById("deck")
-// function some() { ReactDOM.render(<Card />, deck);}
-// some()
+
 export default Card;
