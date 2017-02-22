@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-//import {Welcome} from './basic';
+
 class Card extends Component {
     constructor(props) {
         super(props);
